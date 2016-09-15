@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/style/globalStyle.css">
+    <title>Mathieu Fontenille</title>
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+        html, body, h1, ul {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: black url("assets/backBlurWebOpti.jpg") no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+        }
+        h1{
+            text-align: center;
+            color: whitesmoke;
+            margin: 10px
+        }
+        ul{
+            list-style-type: none;
+            color: whitesmoke;
+        }
+        a.links{
+            cursor: pointer;
+            text-decoration: none;
+            padding: 10px;
+            background-color: rgba(169, 169, 169, 0.85);
+            color: whitesmoke;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        a.links:hover{
+            background-color: rgba(43, 41, 34, 0.55);
+        }
+        #mainPart{
+            top: 50%;
+            margin:auto;
+            z-index: 1;
+            background: rgba(45, 45, 45, 0.62);
+            max-width: 90vw;
+            min-height: 40vh;
+            padding: 5px 0 5px 0;
+            list-style-type: none;
+            text-decoration: none;
+            border-radius: 6px;
+            text-align: center;
+        }
+        img#myPic{
+            width: 40vw;
+        }
+        #desc{
+            margin: 5px 0 5px 0;
+            padding: 15px 10px 15px 10px;
+            color: whitesmoke;
+            background-color: rgba(43, 41, 34, 0.53);
+        }
+        .icon{
+            width: 30px;
+            max-height: 30px;
+            margin: 10px 0 5px 0;
+        }
+        .icon:hover{
+            transform: scale(1.25);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="background"></div>
+
+    <div id="mainPart">
+        <h1 id="title">Mathieu Fontenille</h1>
+        <img src="assets/MyPic.jpg" id="myPic">
+        <p id="desc">Jeune passionné d'informatique de <span id="age"></span> ans, actuellement en Bachelor 3 chez Ingésup.
+            Recherche alternance à partir de septembre 2016, je suis interessé par le développement web mais reste curieux des autres domaines.
+            <br>Je suis ouvert aux opportunités d'alternance en région parisienne.</p>
+        <ul>
+            <li><a href="" class="links">Mon DevBlog</a></li>
+            <li><a href="" class="links">Télécharger mon CV</a></li>
+            <br>
+            Me trouver ailleurs sur le web :
+            <li>
+                <a href="https://fr.linkedin.com/in/mathieu-fontenille-b63287b4"><img class="icon" src="assets/icons/LinkedIn.png"></a>
+                <a href="https://github.com/Razshal"><img class="icon" src="assets/icons/github.png"></a>
+                <a href="https://steamcommunity.com/id/razshal/"><img  class="icon" src="assets/icons/steam.png"></a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+<script type="text/javascript">
+    var birthday = new Date("7 September 1994");
+    var today = new Date();
+    var age = document.getElementById("age");
+    age.innerHTML = ((today.getTime() - birthday.getTime()) / 31536000000).toFixed(0);
+</script>
+</html>
