@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fa1275-e019-4dc4-b86c-da66194755d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/assets/icons/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/skills.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/babel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/backgroundWebOpti.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/react/react-dom-server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/react/react-dom-server.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/react/react-dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/react/react-dom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/react/react-with-addons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/react/react-with-addons.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/react/react.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/react/react.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/woodenBG.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/funStats.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/assets/CV Mathieu Fontenille version web.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/assets/jquery-3.1.0.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/idées" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/assets/jquery-3.0.0.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
     </list>
@@ -54,8 +43,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+            <state relative-caret-position="270">
+              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -64,7 +53,7 @@
       <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/assets/style/materialize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88145">
+            <state relative-caret-position="17">
               <caret line="5185" column="21" selection-start-line="5185" selection-start-column="21" selection-end-line="5185" selection-end-column="21" />
               <folding />
             </state>
@@ -101,16 +90,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="idées" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/idées">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,8 +116,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -169,6 +148,7 @@
         <option value="$PROJECT_DIR$/myWebsiteServer.js" />
         <option value="$PROJECT_DIR$/views/assets/style/globalStyle.css" />
         <option value="F:/Mathieu/Bureau/parallax-template/index.html" />
+        <option value="$PROJECT_DIR$/views/test.html" />
         <option value="$PROJECT_DIR$/views/index.html" />
       </list>
     </option>
@@ -266,28 +246,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Site Perso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Site Perso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -310,8 +268,8 @@
       <recent name="F:\Programmes\wamp64\www\Site Perso\views\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Programmes\wamp64\www\Site Perso\views\assets\icons" />
       <recent name="F:\Programmes\wamp64\www\Site Perso\views\assets" />
+      <recent name="F:\Programmes\wamp64\www\Site Perso\views\assets\icons" />
       <recent name="F:\Programmes\wamp64\www\Site Perso\views\assets\style" />
       <recent name="F:\Programmes\wamp64\www\Site Perso\views" />
       <recent name="F:\Programmes\wamp64\www\Site Perso" />
@@ -397,12 +355,12 @@
       <workItem from="1473621718694" duration="1215000" />
       <workItem from="1473962412074" duration="10687000" />
       <workItem from="1473987745954" duration="808000" />
-      <workItem from="1474026979879" duration="9240000" />
+      <workItem from="1474026979879" duration="17798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59792000" />
+    <option name="totallyTimeSpent" value="68350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -444,14 +402,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/idées">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/assets/style/404.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -662,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/assets/style/font.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/assets/style/404.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -683,14 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/idées">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -709,26 +643,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/idées">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/assets/style/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/assets/style/globalStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/assets/style/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88145">
-          <caret line="5185" column="21" selection-start-line="5185" selection-start-column="21" selection-end-line="5185" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -743,10 +677,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/assets/style/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5185" column="21" selection-start-line="5185" selection-start-column="21" selection-end-line="5185" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding />
         </state>
       </provider>
