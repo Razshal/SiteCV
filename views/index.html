@@ -3,81 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="assets/style/materialize.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/globalStyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Mathieu Fontenille</title>
-    <style>
-        html, body, h1, ul {
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            background: black url("assets/backBlurWebOpti.jpg") no-repeat center center fixed;
-            background-size: cover;
-            display: flex;
-            min-height: 100vh;
-            flex-direction: column;
-        }
-        ul{
-            list-style-type: none;
-            color: whitesmoke;
-        }
-        main{
-            display: block;
-            background: rgba(45, 45, 45, 0.62);
-            padding: 0 0 5px 0;
-            list-style-type: none;
-            text-decoration: none;
-            text-align: center;
-            flex: 1 0 auto;
-        }
-        img#myPic{
-            max-width: 180px;
-            margin-top: 20px;
-        }
-        #desc{
-            margin: 0 0 10px 0;
-            padding: 15px 10px 15px 10px;
-            color: whitesmoke;
-            background-color: rgba(43, 41, 34, 0.53);
-        }
-        .icon{
-            width: 30px;
-            max-height: 30px;
-            margin: 14px 0 0 0;
-        }
-        .icon:hover{
-            transform: scale(1.25);
-        }
-        footer.page-footer{
-            margin-top: 0 !important;
-        }
-        .iconFlex{
-            order: 0;
-            flex: 0 1 auto;
-            align-self: auto;
-            margin-left: 5px;
-        }
-        .flexContainer{
-            display: inline-flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: flex-start;
-            align-content: stretch;
-            align-items: flex-start;
-        }
-        @media all and (min-width: 600px) {
-            img#myPic{
-                min-width: 280px;
-                margin: 20px 0 20px 0;
-            }
-        }
-        @media all and (min-width: 100px) {
-            .brand-logo{
-                margin-left: 10px
-            }
-        }
-    </style>
+
 </head>
 
 <body>
@@ -102,9 +32,9 @@
 
     <main>
         <img src="assets/MyPic.jpg" class="z-depth-1 circle" id="myPic">
-        <p id="desc" class="flow-text">Jeune passionné d'informatique de <span id="age"></span> ans, actuellement en Bachelor 3 chez Ingésup.<br>
-            Je recherche une alternance à partir de septembre 2016, je suis interessé par le développement web mais reste curieux des autres domaines.
-            <br>Ouvert aux opportunités d'alternance en région parisienne.</p>
+        <p id="desc" class="flow-text">Jeune passionné d'informatique de <span id="age"></span> ans, actuellement en freelance dans l'attente de la rentrée 2017-2018.<br>
+            Je recherche un CDD pour le reste de l'année 2017, disponible à partir de Mars.
+            <br>je suis interessé par le développement web mais reste curieux des autres domaines.</p>
         <div class="row container">
             <a href="assets/CV%20Mathieu%20Fontenille%20version%20web.pdf" target="CV" id="downloadButton" class="waves-effect waves-light btn-large grey darken-1"><i class="left"><img class="icon left" src="assets/icons/download.png"></i>CV</a>
         </div>
@@ -121,11 +51,6 @@
                     <a class="grey-text text-lighten-3 iconFlex" href="https://github.com/Razshal"><img class="icon" src="assets/icons/github.png"></a></li>
                     <a class="grey-text text-lighten-3 iconFlex" href="https://steamcommunity.com/id/razshal/"><img  class="icon" src="assets/icons/steam.png"></a></li>
                 </div>
-            </div>
-        </div>
-        <div class="footer-copyright grey darken-3">
-            <div class="container">
-                Construit avec <a href="http://materializecss.com">materializecss</a>
             </div>
         </div>
     </footer>
