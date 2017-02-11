@@ -1,0 +1,27 @@
+{
+  "name": "siteperso",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "myWebsiteServer.js",
+  "dependencies": {
+    "nodemon": "^1.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/fontenille-mathieu/sitecv.git"
+  },
+  "keywords": [
+    "resume",
+    "personal"
+  ],
+  "author": "Mathieu Fontenille",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/fontenille-mathieu/sitecv/issues"
+  },
+  "homepage": "https://gitlab.com/fontenille-mathieu/sitecv#README"
+}

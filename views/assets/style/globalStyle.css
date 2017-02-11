@@ -5,59 +5,22 @@ html, body, h1, ul {
 body{
     background: black url("../backBlurWebOpti.jpg") no-repeat center center fixed;
     background-size: cover;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-ul{
-    list-style-type: none;
-    color: whitesmoke;
 }
 main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-top: 15px;
     background: rgba(45, 45, 45, 0.62);
     list-style-type: none;
     text-decoration: none;
     text-align: center;
-    flex: 1 0 auto;
-}
-.elements-align{
-    margin: auto;
+    margin-bottom: 0 !important;
 }
 img#myPic{
     max-width: 180px;
 }
 #desc{
-    margin: 0 0 10px 0;
-    width: 100vw;
     padding: 15px 10px 15px 10px;
     color: whitesmoke;
     background-color: rgba(43, 41, 34, 0.53);
-}
-.icon{
-    width: 25px;
-    max-height: 25px;
-    margin: 14px 0 0 0;
-}
-.icon:hover{
-    transform: scale(1.25);
-}
-footer.page-footer{
-    margin-top: 0 !important;
-}
-.iconFlex{
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    margin-left: 5px;
-}
-.flexContainer{
-    display: inline-flex;
-}
-#downloadButton{
-    margin-bottom: 10px;
 }
 @media all and (min-width: 600px) {
     img#myPic{
@@ -65,13 +28,9 @@ footer.page-footer{
         margin: 20px 0 20px 0;
     }
 }
-@media all and (min-height: 1024px) {
-    #downloadButton{
-        margin-top: 5vh;
-    }
-}
 @media all and (min-width: 100px) {
     .brand-logo{
         margin-left: 10px
     }
 }
+
