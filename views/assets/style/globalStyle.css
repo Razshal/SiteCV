@@ -1,18 +1,36 @@
-html, body, h1, ul {
+html, body, ul {
     margin: 0;
     padding: 0;
 }
-body{
+h1{
+    text-align: center;
+}
+html{
+    width: 100%;
+    height: 100%;
     background: black url("../backBlurWebOpti.jpg") no-repeat center center fixed;
     background-size: cover;
+    overflow-x: hidden;
+}
+body{
+    background: rgba(45, 45, 45, 0.62);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+nav{
+    position: absolute;
+    background-color: #1d2120;
 }
 main{
-    padding-top: 15px;
-    background: rgba(45, 45, 45, 0.62);
+    padding-top: 80px;
     list-style-type: none;
     text-decoration: none;
     text-align: center;
     margin-bottom: 0 !important;
+    flex: 1 0 auto;
 }
 img#myPic{
     max-width: 180px;
@@ -20,7 +38,7 @@ img#myPic{
 #desc{
     padding: 15px 10px 15px 10px;
     color: whitesmoke;
-    background-color: rgba(43, 41, 34, 0.53);
+    background-color: #3a3a3a;
 }
 @media all and (min-width: 600px) {
     img#myPic{
@@ -33,4 +51,23 @@ img#myPic{
         margin-left: 10px
     }
 }
-
+.icon{
+    max-width: 50px;
+    max-height: 50px;
+}
+.link:hover{
+    transform:scale(1.25);
+}
+footer{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #414757 !important;
+}
+footer#exceptions{
+    margin: 20px 0 0 0;
+    padding: 20px 0 20px 0;
+}
+.link a{
+    text-decoration: none;
+    color: whitesmoke;
+}

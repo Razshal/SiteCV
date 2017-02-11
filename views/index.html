@@ -11,62 +11,70 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper grey darken-2">
-            <a class="brand-logo">Mathieu Fontenille</a>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Mathieu Fontenille</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Présentation</a></li>
+                </ul>
+                <!--
+                <ul class="side-nav grey lighten-5" id="mobile-demo">
+                    <li><a href="index.html">Présentation</a></li>
+                </ul>
+                -->
+            </div>
+        </nav>
+    </header>
 
     <main class="row">
-        <div class="container col s12">
-            <img src="assets/MyPic.jpg" class="z-depth-1 circle elements-align" id="myPic">
+        <div class="col s12">
+            <img src="assets/MyPic.jpg" class="z-depth-2 circle elements-align" id="myPic">
         </div>
-
-        <div class="divider"></div>
-        <p id="desc" class="flow-text elements-align col s12">Jeune passionné d'informatique de <span id="age"></span> ans, actuellement en freelance dans l'attente de la rentrée 2017-2018.<br>
+        <p id="desc" class="z-depth-2 flow-text elements-align col s12">Jeune passionné d'informatique de <span id="age"></span> ans, actuellement développeur freelance dans l'attente de la rentrée scolaire 2017-2018.<br>
             Je recherche un CDD pour le reste de l'année 2017, disponible à partir de Mars.
             <br>je suis interessé par le développement web mais reste curieux des autres domaines.</p>
-
-        <div class="divider"></div>
-        <div id="row" class="col s12">
-            <div class="col s3">Hello</div>
-            <div class="col s3">Hello</div>
-            <div class="col s3">Hello</div>
-            <div class="col s3">Hello</div>
-        </div>
-
-<!--
-        <div id ="links">
-            <a class= "iconFlex" href="assets/CV%20Mathieu%20Fontenille%20version%20web.pdf" target="CV">
-                <img class="icon" src="assets/icons/download.png"></a>
-            <a class="iconFlex" href="https://fr.linkedin.com/in/mathieu-fontenille-b63287b4" target="LinkedIn">
-                <img class="icon" src="assets/icons/LinkedIn.png"></a>
-            <a class="iconFlex" href="https://github.com/Razshal" target="GitHub">
-                <img class="icon" src="assets/icons/github.png"></a>
-            <a class="iconFlex" href="https://steamcommunity.com/id/razshal/" target="Steam">
-                <img  class="icon" src="assets/icons/steam.png"></a>
-        </div>
--->
     </main>
+
+    <footer id="exceptions" class="page-footer row col s12 z-depth-2">
+            <div class="link col s3"><a class= "iconFlex" href="assets/CV%20Mathieu%20Fontenille%20version%20web.pdf" target="CV">
+                <img class="icon" src="assets/icons/download.png"><br>
+                CV</a>
+            </div>
+            <div class="link col s3"><a class="iconFlex" href="https://fr.linkedin.com/in/mathieu-fontenille-b63287b4" target="LinkedIn">
+                <img class="icon" src="assets/icons/LinkedIn.png"><br>
+                LinkedIn</a>
+            </div>
+            <div class="link col s3"><a class="iconFlex" href="https://github.com/Razshal" target="GitHub">
+                <img class="icon" src="assets/icons/github.png"><br>
+                GitHub</a>
+            </div>
+            <div class="link col s3"><a class="iconFlex" href="https://steamcommunity.com/id/razshal/" target="Steam">
+                <img class="icon" src="assets/icons/steam.png"><br>
+                Steam</a>
+            </div>
+    </footer>
 </body>
 <script type="text/javascript" src="assets/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script type="text/javascript">
+    //-------------Dynamic Birthday
     var birthday = new Date("7 September 1994");
     var today = new Date();
     var age = document.getElementById("age");
     age.innerHTML = ((today.getTime() - birthday.getTime()) / 31536000000).toFixed(0);
     $(".button-collapse").sideNav();
-</script>
-<script type="text/javascript">
+
+    //-------------Smartlook
     window.smartlook||(function(d) {
         var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
         var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
         c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
     })(document);
     smartlook('init', '6b65052ef905c727d77f1aa4e8df4e09a8e42bc6');
-</script>
-<script>
+
+    //-------------Analytics
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
