@@ -40,17 +40,6 @@ img#myPic{
     color: whitesmoke;
     background-color: #3a3a3a;
 }
-@media all and (min-width: 600px) {
-    img#myPic{
-        min-width: 280px;
-        margin: 20px 0 20px 0;
-    }
-}
-@media all and (min-width: 100px) {
-    .brand-logo{
-        margin-left: 10px
-    }
-}
 .icon{
     max-width: 50px;
     max-height: 50px;
@@ -70,4 +59,15 @@ footer#exceptions{
 .link a{
     text-decoration: none;
     color: whitesmoke;
+}
+@media all and (min-width: 600px) {
+    img#myPic{
+        min-width: 280px;
+        margin: 20px 0 20px 0;
+    }
+}
+@media all and (min-width: 1000px) {
+    .brand-logo{
+        margin-left: 10px
+    }
 }
